@@ -1,0 +1,30 @@
+.icon{
+    border-radius: 50%;
+    outline:none;
+    height:60px;
+    width: 50px;
+    border:3px solid wheat;
+    color:white;
+    font-weight: bolder;
+    font-size: larger;
+    background-color:forestgreen;
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 50px;
+    color:rgb(129, 42, 201);
+}
+.list{
+    display: flex;
+    margin-top:50px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
